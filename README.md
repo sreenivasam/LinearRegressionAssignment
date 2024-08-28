@@ -1,52 +1,28 @@
-# Project Name
-> Outline a brief description of your project.
+# Boom Bikes Demand Prediction
+BoomBikes, a US-based bike-sharing provider, has experienced a significant drop in revenue due to the COVID-19 pandemic. To regain market stability, the company plans to forecast the demand for shared bikes once the lockdown ends and the economy recovers. They seek to identify key factors that influence bike demand and how accurately these variables can predict future usage. BoomBikes has collected extensive data on daily bike demand across the American market and enlisted a consulting firm to analyze these factors to develop a data-driven strategy for business recovery.
 
+**The company wants to know:**
 
+ - Which variables are significant in predicting the demand for shared bikes.
+ - How well those variables describe the bike demands based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
+
+**Business Goals**
+The company needs to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+- [Exploratory Data Analysis](#eda_id)
+    - [Loading Data](#load_id)
+    - [Characteristics of Dataset](#cha_of_data_id)
+    - [Data Quality](#quality_id)
+        - [Continuous Variables](#con_var_id)
+        - [Categorical Variables](#cat_var_id)
+    - [Correlation Among Variables](#corr_id)
+- [Data Preparation](#data_prep_id)
+- [Modelling](#modelling_id)
+- Conclusion
 
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+cnt = 2560.5 + 1985.846552 `yr` + 486.129277 `Saturday` - 691.2 `july` -1333.85 `spring` + 373.1 `workingday` - 1110.257 `hum` + 3690.22 `temp` - 1014.00 `windspeed`  -1760.7 `light snow/rain`
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
